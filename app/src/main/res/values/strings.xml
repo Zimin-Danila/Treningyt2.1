@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Treningyt2.1</string>
+    <string name="Logo">Изменяющийся текст</string>
+    <string name="bt1">Кнопка 1</string>
+    <string name="bt2">Кнопка 2</string>
+    <string name="bt3">Кнопка 3</string>
+</resources>

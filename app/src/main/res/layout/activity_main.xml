@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/Logo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bt1"
+            android:fontFamily="@font/ubuntu_bold_italic"
+            android:insetTop="4dp"
+            android:onClick="btnClick"
+            android:paddingLeft="0sp"
+            android:paddingTop="0sp"
+            android:paddingRight="0sp"
+            android:paddingBottom="0sp"
+            android:text="@string/bt1"
+            android:textColor="@color/bt1txcl"
+            android:textSize="16sp"
+            app:strokeColor="@color/bt1st"
+            app:strokeWidth="5sp" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bt2"
+            android:fontFamily="@font/oswald_semibold"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp"
+            android:text="@string/bt2"
+            android:textColor="@color/bt2txcl"
+            android:textSize="15sp"
+            app:cornerRadius="0sp"
+            app:strokeColor="@color/bt2st"
+            app:strokeWidth="2sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bt3"
+            android:fontFamily="@font/rubik_bold_italic"
+            android:onClick="btnClick"
+            android:padding="0sp"
+            android:paddingLeft="0sp"
+            android:paddingTop="0sp"
+            android:paddingRight="0sp"
+            android:paddingBottom="0sp"
+            android:text="@string/bt3"
+            android:textColor="@color/bt3txcl"
+            android:textSize="14sp"
+            app:strokeColor="@color/bt3st"
+            app:strokeWidth="1sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
